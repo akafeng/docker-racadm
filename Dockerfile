@@ -8,6 +8,7 @@ RUN set -eux \
         openssl \
         ca-certificates \
         libargtable2-0 \
+        iputils-ping \
     && rm -rf /var/lib/apt/lists/* /var/log/* \
     \
     && ln -sf /usr/lib/x86_64-linux-gnu/libssl.so.3 /usr/lib/x86_64-linux-gnu/libssl.so \
